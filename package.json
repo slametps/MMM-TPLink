@@ -1,0 +1,19 @@
+{
+  "name": "MMM-TPLink",
+  "version": "1.0.0",
+  "description": "Display TPLink smarthome devices on local network",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slametps/MMM-TPLink.git"
+  },
+  "keywords": ["MagicMirror", "TPLink",  "smarthome"],
+  "author": "Slamet Puji Santuso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slametps/MMM-TPLink/issues"
+  },
+  "homepage": "https://github.com/slametps/MMM-TPLink#readme",
+  "dependencies": {
+    "tplink-smarthome-api": ">=0.22.0"
+  }
+}

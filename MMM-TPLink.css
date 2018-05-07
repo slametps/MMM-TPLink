@@ -1,0 +1,11 @@
+.MMM-TPLink .centered {
+    text-align: center;
+}
+
+.MMM-TPLink .lights-all-on{
+   color: yellow
+}
+
+.MMM-TPLink .lights-partial-on{
+   color: khaki
+}
