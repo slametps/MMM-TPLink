@@ -12,7 +12,7 @@ This modules inspired and using some codes from [MMM-Hue](https://github.com/Mit
 
 ## Example
 
-![](.github/example.jpg)   ![](.github/example2.jpg)
+![](others/MMM-TPLink-screenshot-01.png)   ![](others/MMM-TPLink-screenshot-02.png)
 
 ## Dependencies
 
