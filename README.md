@@ -42,5 +42,5 @@ This modules inspired and using some codes from [MMM-Hue](https://github.com/Mit
 | `updateInterval` | `600000 ms` (10 minutes) | how often should the devices states refreshed |
 | `showOnlyOn` | `false` | if set to true the module shows only the lights which are on |
 | `showLabel` | `true` | show header label? |
-| `timeout` | `3000` | how  |
-| `animationSpeed` | `2500 ms` (2.5 s) | Speed of the update animation. |
+| `timeout` | `3000` | how long the discovery should be taken |
+| `animationSpeed` | `2500 ms` (2.5 s) | Speed of the update animation |
