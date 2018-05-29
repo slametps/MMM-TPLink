@@ -93,10 +93,10 @@ module.exports = NodeHelper.create({
       this.search(payload.config, {});
       var that = this;
 
-      function funcDummy() {
+      function sendInfo() {
         // nothing to do
-        //console.log("in funcDummy");
-        if (arrDevices.length > 1) {
+        //console.log("in sendInfo");
+        if (arrDevices.length >= 1) {
           //console.log("1-PRINT OUTPUT LENGTH = " + arrDevices.length);
           arrDevices.sort(function(a, b) {
             var x = a.alias.toLowerCase();
@@ -110,7 +110,7 @@ module.exports = NodeHelper.create({
         }
       }
 
-      setTimeout(funcDummy, payload.config.timeout + 500);
+      setTimeout(sendInfo, payload.config.timeout + 100);
       //console.log(payload.config.timeout + " ms -> CHECK arrDevices-" + arrDevices.length);
       //console.log("TPLink SEARCH END");
     }
